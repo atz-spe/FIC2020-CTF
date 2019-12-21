@@ -29,6 +29,8 @@ The HTTP packets being in clear, we filter them and analyze their contents.
 We can observe that in the infos, there are two requests of type `GET` sending from the source, then completed by the various TCP packets containing the response, followed (if all went well) by an HTTP 200 OK packet from the destination.
 The first request ask for the page `/index.html`, constituted as below (after extracting the source code contained in clear in the request):
 
+---
+
 > Code
 
 ![ch02 index.html code](/images/ch02-indexhtmlraw.png)
@@ -36,6 +38,8 @@ The first request ask for the page `/index.html`, constituted as below (after ex
 > Rendering
 
 ![ch02 index.html](/images/ch02-indexhtml.png)
+
+---
 
 Given the following request, we can imagine that the attacker then downloaded the `dnstunnel.py` file.  
 The advantage of HTTP being for us that the request is in clear, we have the possibility of seeing the content of this file and therefore the source code.  
