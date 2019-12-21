@@ -2,7 +2,7 @@
 
 When the game begin, we start the first challenge, we arrive on the CTF platform and an empty "Flag" field asks us to enter a response. 
 
-![ch01 Platform](https://github.com/atz-dev/FIC2020-CTF/tree/master/images/ch01-platform.png)
+![ch01 Platform](/images/ch01-platform.png)
 
 When we click on play and we make a mistake, we have a "NOPE" alert.
 
