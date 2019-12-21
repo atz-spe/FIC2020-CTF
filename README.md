@@ -15,7 +15,6 @@ Here are the different challenges that included the pre-qualifications and the w
 4. [__Wannacry is f*cking back__ (Reverse Engineering/Crypto)](https://github.com/atz-dev/FIC2020-CTF/blob/master/04-wannacry.md)
 5. __Pyjail 4 Fun__ (Python) (Not solved)
 6. __Host Fetcher__ (Pwn) (Not solved)
-7. __Heap Overflow__ (C/Mem) (Not solved)
 
 ---
 
