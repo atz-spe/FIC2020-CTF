@@ -8,8 +8,8 @@ When we click on play and we make a mistake, we have a "NOPE" alert.
 
 ### INSPECTION
 
-First reflex at this time, inspect the source code of the page.
-By entering this one, we quickly see a <script> block containing javascript.
+First reflex at this time, inspect the source code of the page.  
+By entering this one, we quickly see a <script> block containing javascript.  
 Let's see its content below:
 
 ```javascript
@@ -72,14 +72,14 @@ const play = () => {
 };
 ```
 
-So we have an array of several numbers, a string `u_u`, and the string we enter in the field assigned to the variable `flag`.
+So we have an array of several numbers, a string `u_u`, and the string we enter in the field assigned to the variable `flag`.  
 
-In the for loop having for limit the size of the string `u_u`, if at index `[i]`, the sum of the hexadecimal of the character of `u_u` and `flag` adds to `i * 42` is not equal to the number at index `[i]` in game, then the script returns NOPE to us and stops.
+In the for loop having for limit the size of the string `u_u`, if at index `[i]`, the sum of the hexadecimal of the character of `u_u` and `flag` adds to `i * 42` is not equal to the number at index `[i]` in game, then the script returns NOPE to us and stops.  
 On the contrary, if the calculation is correct, it returns WELL DONE and we can deduce that the flag is the value to put at the end of the url to reach challenge 02.
 
 ### THINKING AND WRITING CODE
 
-We must therefore find at this time what to put in the string `flag` in order to fulfill the prerequisite.
+We must therefore find at this time what to put in the string `flag` in order to fulfill the prerequisite.  
 So I wrote a javascript script here:
 
 ```javascript
@@ -125,8 +125,9 @@ for (i = 0; i < u_u.length; i++) {
 }
 ```
 
-It takes the two elements that we know, the array `game` and the string `u_u`.
-To find the flag, we do the calculation in reverse!
-We take the number at the index `[i]` in game, subtract the value of `i * 42` as well as the hexadecimal of `u_u` at the index `[i]`.
-To display the string to use for `flag`, we print it with `process.stdout.write`. 
+It takes the two elements that we know, the array `game` and the string `u_u`.  
+To find the flag, we do the calculation in reverse!  
+We take the number at the index `[i]` in game, subtract the value of `i * 42` as well as the hexadecimal of `u_u` at the index `[i]`.  
+To display the string to use for `flag`, we print it with `process.stdout.write`.  
+  
 It only remains to run it in a terminal and go to the next challenge ;-)
