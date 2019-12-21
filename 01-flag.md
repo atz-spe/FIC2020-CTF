@@ -131,5 +131,7 @@ We take the number at the index `[i]` in game, subtract the value of `i * 42` as
 To display the string to use for `flag`, we print it with `process.stdout.write`.  
   
 It only remains to run it in a terminal  
-![ch01 Result](/images/ch01-result.png)
+
+![ch01 Result](/images/ch01-result.png)  
+
 and go to the next challenge ;-)
