@@ -35,7 +35,7 @@ The first request ask for the page `/index.html`, constituted as below (after ex
 
 > Rendering
 
-![ch02 index.html](/images/ch02-indexhtml)
+![ch02 index.html](/images/ch02-indexhtml.png)
 
 Given the following request, we can imagine that the attacker then downloaded the `dnstunnel.py` file.  
 The advantage of HTTP being for us that the request is in clear, we have the possibility of seeing the content of this file and therefore the source code.  
