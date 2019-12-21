@@ -26,7 +26,7 @@ The HTTP packets being in clear, we filter them and analyze their contents.
 
 ![ch02 http filter](/images/ch02-httpfilter.png)
 
-We can observe that in the infos, there are two requests of type `GET` sending from the source and two positive answers of the destination.  
+We can observe that in the infos, there are two requests of type `GET` sending from the source, then completed by the various TCP packets containing the response, followed (if all went well) by an HTTP 200 OK packet from the destination.
 The first request ask for the page `/index.html`, constituted as below (after extracting the source code contained in clear in the request):
 
 > Code
