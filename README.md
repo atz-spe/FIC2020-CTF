@@ -13,7 +13,7 @@ Here are the different challenges that included the pre-qualifications and the w
 2. [__Old EXFIL but Gold__ (PCAP/DNS)](https://github.com/atz-dev/FIC2020-CTF/blob/master/02-exfil.md)
 3. [__Do your forensic ANALyst job__ (Forensic)](https://github.com/atz-dev/FIC2020-CTF/blob/master/03-bitlocker.md)
 4. [__Wannacry is f*cking back__ (Reverse Engineering/Crypto)](https://github.com/atz-dev/FIC2020-CTF/blob/master/04-wannacry.md)
-5. __Pyjail 4 Fun__ (Python) (Not solved)
+5. [__Pyjail 4 Fun__ (Python)](https://github.com/atz-dev/FIC2020-CTF/blob/master/05-pyjail.md)
 6. __Host Fetcher__ (Pwn) (Not solved)
 
 ---
