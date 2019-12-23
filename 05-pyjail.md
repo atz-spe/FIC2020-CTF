@@ -19,7 +19,7 @@ So we have to find the right entry.
 
 ### IN SEARCH OF THE FLAW
 We are going to try little by little to discover the environment in which we are, if possible have the source code of our script, have access to a shell, and find the flag.  
-(We pass all stages of test of __prohibited__ word / expression.)  
+(We skip for this write-up all stages of test of prohibited word / expression.)  
 
 When we enter the `'` character, we have an interesting first rendering:  
 
