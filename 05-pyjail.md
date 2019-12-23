@@ -11,7 +11,7 @@ socat stdio openssl-connect:ctf.hexpresso.fr:2323,cert=client.pem,cafile=server.
 ```
 
 Once connected, we have access to a python jail (as indicated by his name).  
-We are therefore in a python environment, inside a script, and we have at our disposal a `>` prompt.
+We are therefore in a python environment, inside a script, and we have at our disposal a `>` prompt.  
 We enter a first word, and a "__Bad flag__" is printed before closing the connection.  
 So we have to find the right entry.  
 
