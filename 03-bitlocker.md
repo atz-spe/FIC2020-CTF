@@ -1,7 +1,5 @@
 # Do your Forensic ANALyst job
 
-# WRITE-UP FIC20 // CH03
-
 ### SUBJECT
 We found this USB key in the pocket of a criminal, are you able to analyze it and find his secret.
 
