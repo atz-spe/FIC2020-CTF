@@ -83,7 +83,7 @@ If we read the code briefly, we can see two things:
 - the `get_input()` function where we land during the connection, has no access to the value of the flag and cannot call the get_flag() function because it is overwritten when the script is launched (so it's useless)
 
 If we spawn a shell with `os.system("/bin/bash")`, we won't have access to everything, as it will have been overwritten.  
-The solution that we chose is then to use the buffers of the env located in `/proc/$script_pid/environ`.  
+The solution that I chose is then to use the buffers of the env located in `/proc/$script_pid/environ`.  
 
 There are two methods for doing this.  
 A crude method but going to the essentials, and a finer second, useful for displaying the specific content of the env of the pid that we need (imagine the case where there would be very many pid).  
