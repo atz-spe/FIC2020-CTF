@@ -111,4 +111,4 @@ We must then, in order, __assign the pid__ to a variable, __constitute the path_
 ![ch05 get flag](/images/ch05-getflag.png)
 
 And here's the result !  
-The injection string is long and could be optimized, but the execution is good since the environment variable contains our flag, `http://c4ffddcc437c5df3e6d681e7cafab510.hexpresso.fr`.
+The injection string is long and could be optimized with some os.system(), but the execution is good since the environment variable contains our flag, `http://c4ffddcc437c5df3e6d681e7cafab510.hexpresso.fr`.
