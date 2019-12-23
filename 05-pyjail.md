@@ -108,7 +108,7 @@ The __second method__, more refined, will focus on the pid of our process (this 
 Thanks to `os.getpid()`, we can assign the pid to a variable.  
 We must then, in order, __assign the pid__ to a variable, __constitute the path__ of our environ file with the pid, and __print the content__ of the file containing the flag.
 
-![ch05 get flag](/images/c05-getflag.png)
+![ch05 get flag](/images/ch05-getflag.png)
 
 And here's the result !  
 The injection string is long and could be optimized, but the execution is good since the environment variable contains our `flag`.
