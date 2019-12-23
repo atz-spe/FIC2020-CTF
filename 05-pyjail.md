@@ -28,7 +28,7 @@ When we enter the `'` character, we have an interesting first rendering:
 The `eval(f""'{input (">")}'"")` function is our entry point.  
 `eval()`, allowing the evaluation of expression and python code inside a python script, is our vector of vulnerability and will allow us to go further by __injecting our own code inside__.  
 
-In the error that we saw above, it was marked that the execution of the script went through `./main.py`.
+In the error that we saw above, it was marked that the execution of the script went through `./main.py`.  
 We will therefore check that the file is present and, if so, print it.
 
 But how do we inject our commandes?  
