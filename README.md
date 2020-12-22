@@ -1,5 +1,7 @@
 # FIC2020-CTF
 
+![fic-logo](/images/fic-logo.jpg)
+
 The __FIC 2020 prequalification challenge__, organized by the __Hexpresso__ team, took place from December 12 to 19, 2019.  
 Through __6__ challenges and a final selection test, it allowed 14 teams to select themselves for the final which will take place at the "Forum International de la Cybersécurité" (FIC).  
 
